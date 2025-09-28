@@ -1,2 +1,6 @@
-.venv
-__pycache__
+# Ignorar a venv em qualquer nível
+.venv/
+venv/
+
+# Ignorar __pycache__ em qualquer pasta
+**/__pycache__/
